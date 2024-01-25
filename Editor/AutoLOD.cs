@@ -683,8 +683,19 @@ namespace Unity.AutoLOD
             }
         }
 
+#if UNITY_2018_3_OR_NEWER
+        [SettingsProvider]
+        static SettingsProvider PreferencesGUI()
+        {
+            return new SettingsProvider("Preferences/AutoLOD", SettingsScope.User)
+            {
+                guiHandler = (searchContext) => DeprecatedPreferencesGUI(),
+            };
+        }
+#else
         [PreferenceItem("AutoLOD")]
-        static void PreferencesGUI()
+#endif
+        static void DeprecatedPreferencesGUI()
         {
             EditorGUILayout.BeginVertical();
             EditorGUILayout.Space();
