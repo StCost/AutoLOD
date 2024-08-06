@@ -1,4 +1,6 @@
-# Updated AutoLOD
+# Outdated Updated AutoLOD
+Prefer another maintained [fork](https://github.com/YvesAlbuquerque/AutoLOD)
+
 Automatic LOD generation + scene optimization - [Initial release](https://github.com/Unity-Technologies/AutoLOD) was on January 12, 2018 via [blogpost](https://blogs.unity3d.com/2018/01/12/unity-labs-autolod-experimenting-with-automatic-performance-improvements/)
 
 AutoLOD is primarily a framework for enabling automatic post-processing of geometrical model assets on import to create simplified levels-of-detail (LOD). A [default mesh simplifier](https://github.com/Whinarn/UnityMeshSimplifier/) is included, but can be swapped out with other simplifiers and on a per-model basis if needed. Additionally, a whole scene can be hierarchically chunked into LODs with [SceneLOD](https://github.com/Unity-Technologies/AutoLOD/wiki/Scenelod).
