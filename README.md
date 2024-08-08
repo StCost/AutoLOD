@@ -1,5 +1,6 @@
 # Outdated Updated AutoLOD
-Prefer another maintained [fork](https://github.com/YvesAlbuquerque/AutoLOD)
+# Prefer another maintained [fork](https://github.com/YvesAlbuquerque/AutoLOD)
+# or use unity 6 and GPU occlusion + mesh simplifier
 
 Automatic LOD generation + scene optimization - [Initial release](https://github.com/Unity-Technologies/AutoLOD) was on January 12, 2018 via [blogpost](https://blogs.unity3d.com/2018/01/12/unity-labs-autolod-experimenting-with-automatic-performance-improvements/)
 
